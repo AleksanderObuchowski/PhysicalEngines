@@ -1,13 +1,13 @@
-Mover[] movers = new Mover[10];
+Mover[] movers = new Mover[5];
  
 Attractor a;
  
 void setup() {
-  size(400,400);
+  size(700,700);
   for (int i = 0; i < movers.length; i++) {
 
 
-    movers[i] = new Mover(random(width),random(height),random(0.1,2));
+    movers[i] = new Mover(random(width/2),height/2,random(0.1,3));
   }
   a = new Attractor();
 }

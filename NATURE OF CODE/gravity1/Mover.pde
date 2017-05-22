@@ -10,9 +10,9 @@ class Mover {
     y=y_;
     
     mass = m_;
-    r= mass*10;
+    r= mass*5;
     location = new PVector(x,y);
-    velocity = new PVector(0,0);
+    velocity = new PVector(0,sqrt(8/(location.x-(width/2))));
     acceleration = new PVector(0,0);
   }
  
