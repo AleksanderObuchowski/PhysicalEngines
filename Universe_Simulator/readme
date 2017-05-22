@@ -1,0 +1,10 @@
+This sketch simulates the universe in it's early stages, based on photo the photo showing density of mass.
+The darker the picture is the more mass is in that area.
+My program creates 2500 particles and sets it's mass according to brigntness of the pixel below it.
+You can see that the particles then form sturtuctures looking like galaxies.
+
+Due to the fact that particles are much closer than in real life gravity must have been limited to 30pixels.
+
+GUI is made with interfascia library.
+
+Special thanks to MinutePhysics for their video that acted as inspiration to this program : https://youtu.be/pQiKBM9rDoM
